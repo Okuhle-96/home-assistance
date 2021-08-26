@@ -1,0 +1,165 @@
+.nav-bar {
+    height: 40px;
+}
+
+.menu {
+    display: flex;
+    float: right;
+    margin-right: 200px;
+}
+
+
+ul li {
+    list-style: none;
+    font-weight: bolder;
+    
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.context {
+    margin-top: 30px;
+    background-image: url("../images/back.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 96%;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.734);
+    height: 600px
+}
+
+.overlay .text {
+    color: white;
+    font-weight: bold;
+    padding: 60px;
+}
+
+.text h1, .text p{
+    color: white;
+}
+
+.form input {
+    padding: 20px;
+    margin-right: -5px;
+    border: 1px solid gray;
+    
+}
+
+.button {
+    background-color: slategray;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width:150px;
+    border: 0;
+}
+
+.border{
+    background-color: burlywood;
+    height: 5px;
+    margin-top: -50px;
+    width: 50%;
+    color: burlywood;
+}
+
+.services {
+    display: flex;
+}
+
+.serv-categories{
+    width: 30%;
+    margin: 20px
+
+}
+
+.serv-categories p {
+    background-color: slategray;
+    height: 180px;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    /* font-weight: bold; */
+    text-transform: lowercase;
+}
+
+#founder {
+    display: flex;
+}
+
+.info {
+    background-color: burlywood;
+    padding: 30px;
+    padding-right: 300px;
+    padding-bottom: 70px;
+    margin: 15px;
+    /* color: white; */
+    /* text-align: justify; */
+}
+
+.info h5, .info p {
+    color: white;
+}
+
+.info a {
+    background-color: white;
+    color: slategray;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.picture {
+    background-image: url('../images/images.jpg');
+    height: 570px;
+    margin-top: 70px;
+    margin-left: -270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 570px;
+}
+
+.offers {
+    display: flex;
+}
+
+.offer {
+    width: 33%;
+    margin-right: 20px;
+}
+
+.offer h3 {
+        color:burlywood;
+        text-transform: uppercase;
+}
+
+.offer img {
+    width: 250px;
+    margin-left: 30px;
+    margin-bottom: -150px;
+
+}
+
+.offer p {
+    background-color: burlywood;
+    color: white;
+    /* padding-top: 100px; */
+    text-align: center;
+    padding: 150px 40px 40px 40px;
+    /* height: 300px; */
+}
+
+.offer button{
+    border: 0px;
+    font-weight: bolder;
+    background-color: slategray;
+    color: white;
+    width: 316.5px;
+    padding: 20px;
+}
